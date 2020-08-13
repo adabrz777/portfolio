@@ -1,3 +1,2 @@
 ### Hello
-These are only style, html and js files.\
-Here you can't see images.
+These are only style, html, js and image files that I made by my self.
