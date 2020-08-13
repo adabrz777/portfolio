@@ -1,0 +1,180 @@
+@media only screen and (max-width: 600px) {
+	.page {
+		.nav {
+			top: -6vh;
+
+			* {
+				visibility: hidden;
+			}
+
+			#nav__progress-bar {
+				visibility: visible;
+			}
+		}
+
+		.social-links{
+			width: 100%;
+			left: 0;
+		}
+
+		#day-night {
+			top: 12px;
+			right: 12px;
+		}
+
+		.start {
+
+			.start__button {
+				top: 45%;
+
+				min-width: 70vw;
+				min-height: 21vw;
+
+				.start__button-link {
+					font-size: 8vw;
+				}
+			}
+
+			.start__under {
+				top: 45%;
+
+				min-width: 70vw;
+				min-height: 21vw;
+			}
+		}
+
+		#about-me__navigation-link, #know__navigation-link, #portfolio__navigation-link, #contact__navigation-link {
+			top: 0;
+		}
+
+		.about-me {
+			padding-bottom: 3vh;
+
+			.about-me__image-container {
+				.about-me__image {
+					max-width: 90%;
+					left: 5%;
+				}
+			}
+
+			.about-me__text-container {
+				.about-me__text {
+					font-size: 2.3vh;
+					padding: 20px 7%;
+				}
+			}
+
+			.about-me__clock-container {
+				#about-me__clock {
+					font-size: 12vw;
+				}
+			}
+		}
+
+		.know {
+			.know__title {
+				font-size: 5.5vw;
+			}
+
+			.know__text {
+				font-size: 4vw;
+				line-height: 4.4vw;
+			}
+
+			.know__skills {
+				.know__row {
+					.know__skill {
+						width: 28vw;
+						height: 28vw;
+
+						.know__skill-symbol {
+							width: 20vw;
+							height: 20vw;
+							top: .5vw;
+							left: 3.25vw;
+
+							.know__skill-title {
+								font-size: 4vw;
+								line-height: 4vw;
+								min-height: 4vw;
+							}
+						}
+
+						&:hover {
+							.know__skill-symbol {
+								top: .5vw;
+
+								.know__skill-title {
+									font-size: 4vw;
+									line-height: 4vw;
+								}
+							}
+
+							-webkit-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.75);
+							-moz-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.75);
+							box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.75);
+						}
+					}
+				}
+			}
+		}
+
+		.portfolio {
+			.portfolio__title {
+				font-size: 5.5vw;
+			}
+
+			.portfolio__text {
+				font-size: 4vw;
+				line-height: 4.4vw;
+			}
+
+			.portfolio__projects {
+				.portfolio__project {
+					width: 80vw;
+					height: calc(80vw * 0.5625);
+
+					margin: 5vw;
+
+					.portfolio__project-title {
+						font-size: 5vw;
+					}
+
+					.portfolio__project-link {
+						font-size: 4vw;
+					}
+				}
+			}
+		}
+
+		.contact {
+			.contact__info {
+				font-size: 5vw;
+				margin-left: -4vw;
+				margin-bottom: 10vw;
+
+				.contact__info-item {
+					margin-bottom: 5%;
+				}
+			}
+
+			.contact__tel, .contact__or, .contact__mail {
+				font-size: 5vw;
+
+				.contact__link {
+					display: block;
+					font-size: 6vw;
+				}
+			}
+
+			.contact__code{
+				font-size: 5vw;
+			}
+
+			.contact__credits {
+				font-size: 4vw;
+				height: 4vw;
+			}
+		}
+	}
+}

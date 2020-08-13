@@ -1,0 +1,122 @@
+@media only screen and (max-width: 600px) {
+  .page .nav {
+    top: -6vh;
+  }
+  .page .nav * {
+    visibility: hidden;
+  }
+  .page .nav #nav__progress-bar {
+    visibility: visible;
+  }
+  .page .social-links {
+    width: 100%;
+    left: 0;
+  }
+  .page #day-night {
+    top: 12px;
+    right: 12px;
+  }
+  .page .start .start__button {
+    top: 45%;
+    min-width: 70vw;
+    min-height: 21vw;
+  }
+  .page .start .start__button .start__button-link {
+    font-size: 8vw;
+  }
+  .page .start .start__under {
+    top: 45%;
+    min-width: 70vw;
+    min-height: 21vw;
+  }
+  .page #about-me__navigation-link, .page #know__navigation-link, .page #portfolio__navigation-link, .page #contact__navigation-link {
+    top: 0;
+  }
+  .page .about-me {
+    padding-bottom: 3vh;
+  }
+  .page .about-me .about-me__image-container .about-me__image {
+    max-width: 90%;
+    left: 5%;
+  }
+  .page .about-me .about-me__text-container .about-me__text {
+    font-size: 2.3vh;
+    padding: 20px 7%;
+  }
+  .page .about-me .about-me__clock-container #about-me__clock {
+    font-size: 12vw;
+  }
+  .page .know .know__title {
+    font-size: 5.5vw;
+  }
+  .page .know .know__text {
+    font-size: 4vw;
+    line-height: 4.4vw;
+  }
+  .page .know .know__skills .know__row .know__skill {
+    width: 28vw;
+    height: 28vw;
+  }
+  .page .know .know__skills .know__row .know__skill .know__skill-symbol {
+    width: 20vw;
+    height: 20vw;
+    top: .5vw;
+    left: 3.25vw;
+  }
+  .page .know .know__skills .know__row .know__skill .know__skill-symbol .know__skill-title {
+    font-size: 4vw;
+    line-height: 4vw;
+    min-height: 4vw;
+  }
+  .page .know .know__skills .know__row .know__skill:hover {
+    -webkit-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.75);
+  }
+  .page .know .know__skills .know__row .know__skill:hover .know__skill-symbol {
+    top: .5vw;
+  }
+  .page .know .know__skills .know__row .know__skill:hover .know__skill-symbol .know__skill-title {
+    font-size: 4vw;
+    line-height: 4vw;
+  }
+  .page .portfolio .portfolio__title {
+    font-size: 5.5vw;
+  }
+  .page .portfolio .portfolio__text {
+    font-size: 4vw;
+    line-height: 4.4vw;
+  }
+  .page .portfolio .portfolio__projects .portfolio__project {
+    width: 80vw;
+    height: calc(80vw * 0.5625);
+    margin: 5vw;
+  }
+  .page .portfolio .portfolio__projects .portfolio__project .portfolio__project-title {
+    font-size: 5vw;
+  }
+  .page .portfolio .portfolio__projects .portfolio__project .portfolio__project-link {
+    font-size: 4vw;
+  }
+  .page .contact .contact__info {
+    font-size: 5vw;
+    margin-left: -4vw;
+    margin-bottom: 10vw;
+  }
+  .page .contact .contact__info .contact__info-item {
+    margin-bottom: 5%;
+  }
+  .page .contact .contact__tel, .page .contact .contact__or, .page .contact .contact__mail {
+    font-size: 5vw;
+  }
+  .page .contact .contact__tel .contact__link, .page .contact .contact__or .contact__link, .page .contact .contact__mail .contact__link {
+    display: block;
+    font-size: 6vw;
+  }
+  .page .contact .contact__code {
+    font-size: 5vw;
+  }
+  .page .contact .contact__credits {
+    font-size: 4vw;
+    height: 4vw;
+  }
+}

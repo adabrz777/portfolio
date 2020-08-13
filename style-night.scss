@@ -1,0 +1,146 @@
+.page--night {
+	background: var(--white-dark);
+
+	::-moz-selection {
+		background: var(--orange);
+		color: var(--white);
+	}
+	::selection {
+		background: var(--orange);
+		color: var(--white);
+	}
+
+	.nav {
+		background: var(--grey-dark);
+
+		#nav__progress-bar {
+			background: var(--orange);
+		}
+
+		.nav__logo {
+			span {
+				color: var(--orange);
+			}
+		}
+
+		.nav__links {
+			.nav__link {
+				&:hover {
+					background: var(--orange-dark);
+				}
+			}
+		}
+	}
+
+	#day-night{
+		border: .5vh solid var(--orange);
+		color: var(--orange-dark);
+	}
+
+	.start {
+		background-image: url('./bg-header-desktop-night.png');
+		// background-size: cover;
+		// background-position: center 45%;
+
+		.start__button {
+			background: var(--grey-dark);
+
+			.start__button-link {
+				color: var(--white);
+			}
+		}
+
+		.start__under {
+			border-color: var(--grey-dark) !important;
+		}
+	}
+
+
+	.about-me {
+		background-image: url('./dark-wall.png');
+		.about-me__line {
+			background: var(--orange-dark);
+		}
+
+		.about-me__image-container {
+			.about-me__image{
+				border-right: 1px solid var(--orange);
+				border-bottom: 1px solid var(--orange);
+			}
+		}
+
+		.about-me__my-name {
+			color: var(--white-dark);
+
+			span {
+				color: var(--orange);
+			}
+		}
+
+		.about-me__text-container {
+			.about-me__text{
+				color: var(--white-dark);
+				border-top: 2px dashed var(--orange);
+				border-bottom: 2px dashed var(--orange-dark);
+
+				a {
+					color: var(--orange);
+				}
+
+				i {
+					color: var(--orange);
+				}
+			}
+		}
+
+		.about-me__clock-container{
+			#about-me__clock {
+				color: var(--orange);
+				border-bottom-color: var(--orange-dark);
+			}
+		}
+		
+	}
+
+	.contact {
+		.contact__info {
+			.contact__info-item--color {
+				color: var(--orange);
+			}
+		}
+
+		.contact__code{
+			.contact__link{
+				color: var(--orange);
+			}
+		}
+	}
+}
+
+//large mobile devices
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+	.page--night {
+		.start {
+			background-image: url('./bg-header-mobile-night.png');
+			// background-size: cover !important;
+		}
+
+		.contact {
+			.contact__tel, .contact__or, .contact__mail {
+				.contact__icon {
+					color: var(--orange);
+				}
+
+				.contact__link {
+					&:link {
+						color: var(--orange);
+					}
+
+					&:hover {
+						color: var(--orange-dark);
+					}
+				}
+			}
+		}
+	}
+}

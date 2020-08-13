@@ -1,0 +1,189 @@
+@media only screen and (max-width: 1024px) {
+	.page {
+		.nav {
+			.nav__logo {
+				font-size: 3.4vh;
+			}
+
+			.nav__links {
+				font-size: 2vh;
+				right: 1vh;
+
+				.nav__link {
+					padding: 0 1vh;
+				}
+			}
+		}
+
+		.social-links {
+			.social-links__link {
+				font-size: 2.2vw;
+				line-height: 4vw;
+				width: 4vw;
+				height: 4vw;
+			}
+		}
+
+		.start {
+			.start__button {
+				top: 38%;
+			}
+
+			.start__under {
+				top: 38%;
+			}
+		}
+
+		.about-me {
+			.about-me__line {
+				left: 2vw;
+
+				@keyframes __line_animation {
+					from {
+						transform: translate(4vw, 0);
+					}
+					to {
+						transform: translate(0vw, 0);
+					}
+				}
+			}
+
+			.about-me__image-container {
+				.about-me__image {
+					max-height: 100%;
+					width: calc(100% - 2px);
+					bottom: 0;
+					left: 0;
+					transform: translate(0, 0);
+				}
+			}
+
+			.about-me__my-name {
+
+				width: 49%;
+				height: 20%;
+				right: 8%;
+				padding-right: 0;
+				padding-bottom: 1%;
+
+				font-size: 3.4vw;
+
+				span {
+					margin-left: 1vh;
+				}
+			}
+
+			.about-me__text-container {
+				height: 80%;
+				width: 49%;
+				right: 8%;
+
+				.about-me__text {
+					position: relative;
+					box-sizing: border-box;
+					left: 5%;
+					width: 95%;
+					font-size: 2.2vh;
+					padding: 2vw 2vw;
+				}
+			}
+
+			.about-me__clock-container {
+
+				width: 35%;
+				height: 38%;
+				left: 8%;
+				bottom: 0;
+
+				#about-me__clock {
+					top: 15%;
+					left: 50%;
+					transform: translate(-50%, 0);
+					font-size: 5vw;
+				}
+			}
+		}
+
+		.know {
+			min-height: 32vw;
+
+			.know__title {
+				height: 3vw;
+				font-size: 2vw;
+				line-height: 3vw;
+			}
+
+			.know__text {
+				width: 80%;
+				top: .5vw;
+				font-size: 1.3vw;
+				line-height: 2vw;
+			}
+
+			.know__skills {
+				.know__row {
+					.know__skill {
+						&:hover {
+							transform: scale(1.95, 2.55) translate(0, -2vw);
+						}
+
+						.know__skill-symbol{
+							.know__skill-title {
+								font-size: 1vw;
+								line-height: 1vw;
+								min-height: 1vw;
+							}
+						}
+
+						.know__skill-text{
+							line-height: 0.6vw;
+						}
+					}
+				}
+			}
+		}
+
+		.portfolio {
+			.portfolio__title {
+				font-size: 2vw;
+			}
+
+			.portfolio__text {
+				font-size: 1.3vw;
+				line-height: 2vw;
+			}
+
+			.portfolio__projects {
+				.portfolio__project {
+					width: 20vw;
+					height: calc(20vw * 0.5625);
+
+					.portfolio__project-title {
+						font-size: 1.5vw;
+					}
+
+					.portfolio__project-icon {
+						font-size: 1.3vw;
+					}
+				}
+			}
+		}
+
+		.contact {
+			.contact__info {
+				font-size: 1.5vw;
+			}
+
+			.contact__tel, .contact__or, .contact__mail {
+				font-size: 1.8vw;
+				letter-spacing: 1px;
+			}
+
+			.contact__credits {
+				left: 3vw;
+				bottom: .5vw;
+				font-size: 1vw;
+			}
+		}
+	}
+}

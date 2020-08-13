@@ -1,0 +1,113 @@
+.page--night {
+  background: var(--white-dark);
+}
+
+.page--night ::-moz-selection {
+  background: var(--orange);
+  color: var(--white);
+}
+
+.page--night ::selection {
+  background: var(--orange);
+  color: var(--white);
+}
+
+.page--night .nav {
+  background: var(--grey-dark);
+}
+
+.page--night .nav #nav__progress-bar {
+  background: var(--orange);
+}
+
+.page--night .nav .nav__logo span {
+  color: var(--orange);
+}
+
+.page--night .nav .nav__links .nav__link:hover {
+  background: var(--orange-dark);
+}
+
+.page--night #day-night {
+  border: 0.5vh solid var(--orange);
+  color: var(--orange-dark);
+}
+
+.page--night .start {
+  background-image: url("./bg-header-desktop-night.png");
+}
+
+.page--night .start .start__button {
+  background: var(--grey-dark);
+}
+
+.page--night .start .start__button .start__button-link {
+  color: var(--white);
+}
+
+.page--night .start .start__under {
+  border-color: var(--grey-dark) !important;
+}
+
+.page--night .about-me {
+  background-image: url("./dark-wall.png");
+}
+
+.page--night .about-me .about-me__line {
+  background: var(--orange-dark);
+}
+
+.page--night .about-me .about-me__image-container .about-me__image {
+  border-right: 1px solid var(--orange);
+  border-bottom: 1px solid var(--orange);
+}
+
+.page--night .about-me .about-me__my-name {
+  color: var(--white-dark);
+}
+
+.page--night .about-me .about-me__my-name span {
+  color: var(--orange);
+}
+
+.page--night .about-me .about-me__text-container .about-me__text {
+  color: var(--white-dark);
+  border-top: 2px dashed var(--orange);
+  border-bottom: 2px dashed var(--orange-dark);
+}
+
+.page--night .about-me .about-me__text-container .about-me__text a {
+  color: var(--orange);
+}
+
+.page--night .about-me .about-me__text-container .about-me__text i {
+  color: var(--orange);
+}
+
+.page--night .about-me .about-me__clock-container #about-me__clock {
+  color: var(--orange);
+  border-bottom-color: var(--orange-dark);
+}
+
+.page--night .contact .contact__info .contact__info-item--color {
+  color: var(--orange);
+}
+
+.page--night .contact .contact__code .contact__link {
+  color: var(--orange);
+}
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+  .page--night .start {
+    background-image: url("./bg-header-mobile-night.png");
+  }
+  .page--night .contact .contact__tel .contact__icon, .page--night .contact .contact__or .contact__icon, .page--night .contact .contact__mail .contact__icon {
+    color: var(--orange);
+  }
+  .page--night .contact .contact__tel .contact__link:link, .page--night .contact .contact__or .contact__link:link, .page--night .contact .contact__mail .contact__link:link {
+    color: var(--orange);
+  }
+  .page--night .contact .contact__tel .contact__link:hover, .page--night .contact .contact__or .contact__link:hover, .page--night .contact .contact__mail .contact__link:hover {
+    color: var(--orange-dark);
+  }
+}
